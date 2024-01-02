@@ -40,3 +40,14 @@ Creating typing bots for major typing websites
 
 ### For 10FastFingers
 - Nothing in particular
+
+## What does the tests.py do?
+- Nothing really, It was just there for basic testing to check where the python files were going wrong, it's pretty much obsolete now, you can still run it using:
+    ```python
+    pytest tests.py
+    ```
+    or
+    ```python
+    python -m pytest tests.py
+    ```
+- However it shpuld fail both the tests, as it was just meant to be there to troubleshoot what was going wrong with the code during the development, the code however is perfectly working (As long as the CI passes, it means it still hasn't broken)
