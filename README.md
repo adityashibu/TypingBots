@@ -50,4 +50,4 @@ Creating typing bots for major typing websites
     ```python
     python -m pytest tests.py
     ```
-- However it shpuld fail both the tests, as it was just meant to be there to troubleshoot what was going wrong with the code during the development, the code however is perfectly working (As long as the CI passes, it means it still hasn't broken)
+- However it should fail both the tests, as it was just meant to be there to troubleshoot what was going wrong with the code during the development, the code however is perfectly working (As long as the CI passes, it means it still hasn't broken)
