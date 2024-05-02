@@ -3,7 +3,7 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.common.by import By
 from time import sleep
 
-driverPath = r"C:\Users\Aditya Uni\Downloads\chromedriver-win64\chromedriver-win64\chromedriver.exe"
+driverPath = r"C:\Users\Aditya Uni\Downloads\chromedriver-win64 (1)\chromedriver-win64\chromedriver.exe"
 
 service = ChromeService(driverPath)
 driver = webdriver.Chrome(service=service)

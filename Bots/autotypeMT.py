@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service as ChromeService
 
 # Specify the path to your ChromeDriver executable
-chrome_driver_path = r"C:\Users\Aditya Uni\Downloads\chromedriver-win64\chromedriver-win64\chromedriver.exe"
+chrome_driver_path = r"C:\Users\Aditya Uni\Downloads\chromedriver-win64 (1)\chromedriver-win64\chromedriver.exe"
 
 # Start the ChromeDriver service
 service = ChromeService(chrome_driver_path)
@@ -28,7 +28,7 @@ def login():
     pyautogui.click(x=827, y=818) #accept cookies
     time.sleep(2)
 
-    pyautogui.click(x=1223, y=268) #login logp
+    pyautogui.click(x=1223, y=268) #login log
     time.sleep(1)
 
     pyautogui.click(x=942, y=470) # email
